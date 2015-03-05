@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{CF804EDA-EF3F-48AA-8E71-B52A9D639D2A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{8F9876A6-103F-4DEF-946E-71671027F5A9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CF804EDA-EF3F-48AA-8E71-B52A9D639D2A} = {CF804EDA-EF3F-48AA-8E71-B52A9D639D2A}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
