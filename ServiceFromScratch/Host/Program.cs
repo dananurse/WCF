@@ -12,6 +12,8 @@ namespace Host
     {
         static void Main(string[] args)
         {
+            Console.Title = "Service Host";
+
             using (ServiceHost host = new ServiceHost(typeof(HelloIndigo.HelloIndigoService),
                 new Uri("http://localhost:8000/HelloIndigo")))
             {
